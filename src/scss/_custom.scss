@@ -41,7 +41,8 @@ $btn-border-radius: 0;
 $btn-font-weight: 700;
 
 
-
+//Habilitar CSS Grid
+$enable-cssgrid: true;
 
 // Importar Bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';

@@ -30,19 +30,29 @@
         }
 
         .titulo{
-
+            font-family: $fuente-textos;
+            font-size: 1rem;
         }
 
         .instructor{
-
+            font-size: .8rem;
+            margin: 0;
+        }
+        .calificacion{
+            width: 6rem;
         }
 
         .precio{
+            font-size: .9rem
 
+            span{
+                font-size: .7rem
+            }
         }
 
         .total{
-            
+            font-size: .8rem;
+            text-decoration: line-through;
         }
     }
 }
